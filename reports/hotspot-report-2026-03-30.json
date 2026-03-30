@@ -1,0 +1,96 @@
+{
+  "generated_at": "2026-03-30T01:54:56.757130Z",
+  "hotspot_count": 10,
+  "hotspots": [
+    {
+      "rank": 1,
+      "repo_name": "bytedance/deer-flow",
+      "stars": 52400,
+      "daily_growth": 1247,
+      "weekly_growth": 13621,
+      "growth_percent": 0.0,
+      "hotspot_score": 80.0
+    },
+    {
+      "rank": 2,
+      "repo_name": "mvanhorn/last30days-skill",
+      "stars": 15100,
+      "daily_growth": 1196,
+      "weekly_growth": 9725,
+      "growth_percent": 0.0,
+      "hotspot_score": 80.0
+    },
+    {
+      "rank": 3,
+      "repo_name": "NousResearch/hermes-agent",
+      "stars": 16300,
+      "daily_growth": 1183,
+      "weekly_growth": 5020,
+      "growth_percent": 0.0,
+      "hotspot_score": 80.0
+    },
+    {
+      "rank": 4,
+      "repo_name": "hacksider/Deep-Live-Cam",
+      "stars": 85100,
+      "daily_growth": 971,
+      "weekly_growth": 4828,
+      "growth_percent": 0.0,
+      "hotspot_score": 77.46
+    },
+    {
+      "rank": 5,
+      "repo_name": "shareAI-lab/learn-claude-code",
+      "stars": 42600,
+      "daily_growth": 867,
+      "weekly_growth": 5621,
+      "growth_percent": 0.0,
+      "hotspot_score": 74.68
+    },
+    {
+      "rank": 6,
+      "repo_name": "Yeachan-Heo/oh-my-claudecode",
+      "stars": 15800,
+      "daily_growth": 1308,
+      "weekly_growth": 3364,
+      "growth_percent": 0.0,
+      "hotspot_score": 66.91
+    },
+    {
+      "rank": 7,
+      "repo_name": "shanraisshan/claude-code-best-practice",
+      "stars": 24200,
+      "daily_growth": 1015,
+      "weekly_growth": 3156,
+      "growth_percent": 0.0,
+      "hotspot_score": 65.25
+    },
+    {
+      "rank": 8,
+      "repo_name": "msitarzewski/agency-agents",
+      "stars": 65500,
+      "daily_growth": 639,
+      "weekly_growth": 4910,
+      "growth_percent": 0.0,
+      "hotspot_score": 64.84
+    },
+    {
+      "rank": 9,
+      "repo_name": "gsd-build/get-shit-done",
+      "stars": 44500,
+      "daily_growth": 627,
+      "weekly_growth": 4832,
+      "growth_percent": 0.0,
+      "hotspot_score": 63.74
+    },
+    {
+      "rank": 10,
+      "repo_name": "microsoft/VibeVoice",
+      "stars": 26800,
+      "daily_growth": 1491,
+      "weekly_growth": 2810,
+      "growth_percent": 0.0,
+      "hotspot_score": 62.48
+    }
+  ]
+}

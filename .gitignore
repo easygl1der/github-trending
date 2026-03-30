@@ -28,6 +28,4 @@ htmlcov/
 env/
 venv/
 
-reports/*.json
-reports/*.md
 !reports/.gitkeep
