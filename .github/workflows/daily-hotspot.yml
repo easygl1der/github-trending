@@ -1,0 +1,38 @@
+name: Daily GitHub Hotspot Detection
+
+on:
+  schedule:
+    - cron: '0 9 * * *'  # 每天 9:00 UTC 执行
+  workflow_dispatch:       # 手动触发
+
+jobs:
+  detect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: Run hotspot detection
+        run: |
+          python main.py --output-format markdown,json --verbose
+
+      - name: Upload markdown report
+        uses: actions/upload-artifact@v4
+        with:
+          name: hotspot-report-markdown
+          path: reports/*.md
+          retention-days: 30
+
+      - name: Upload JSON report
+        uses: actions/upload-artifact@v4
+        with:
+          name: hotspot-report-json
+          path: reports/*.json
+          retention-days: 30

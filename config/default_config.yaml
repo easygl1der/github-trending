@@ -1,0 +1,17 @@
+hotspot:
+  min_daily_growth: 500
+  min_weekly_growth: 3000
+  min_growth_percent: 0.05
+  max_rank: 20
+
+data_sources:
+  daily_rank_url: "https://raw.githubusercontent.com/OpenGithubs/github-daily-rank/main/README.md"
+  weekly_rank_url: "https://raw.githubusercontent.com/OpenGithubs/github-weekly-rank/main/README.md"
+
+output:
+  format: ["markdown", "json"]
+  directory: "reports"
+
+fetcher:
+  retry_times: 3
+  retry_wait: 5
